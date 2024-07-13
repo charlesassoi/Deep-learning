@@ -1,6 +1,3 @@
-import keras
-
-
 tokenizer = keras_nlp.models.BertTokenizer.from_preset("bert_tiny_en_uncased")
 tokenizer(["I love modular workflows!", "Libraries over frameworks!"])
 
